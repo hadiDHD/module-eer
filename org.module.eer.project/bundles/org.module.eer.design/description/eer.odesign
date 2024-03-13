@@ -191,14 +191,6 @@
                 </firstModelOperations>
               </initialOperation>
             </menuItemDescription>
-            <menuItemDescription xsi:type="tool_1:OperationAction" name="Split the Module Linked List" precondition="aql:self.oclIsKindOf(moduleeer::Module)">
-              <view name="views"/>
-              <initialOperation>
-                <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="SplitModule" id="module.eer.design.split.module.linkedlist.action">
-                  <parameters name="module" value="var:self"/>
-                </firstModelOperations>
-              </initialOperation>
-            </menuItemDescription>
           </ownedTools>
           <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create Association" edgeMappings="//@ownedViewpoints[name='ModulEERViewpoint']/@ownedRepresentations[name='ModuleRepresentation']/@defaultLayer/@edgeMappings[name='Link']" iconPath="/org.module.eer.mm.edit/icons/full/obj16/Association.gif">
             <sourceVariable name="source"/>
