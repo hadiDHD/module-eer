@@ -30,8 +30,10 @@ public class ModularizableDependenciesConstraint implements Constraint{
 	public ModularizableDependenciesConstraint(List<BasicConstraint> listOfConstraints, int optimalNumberOfModules) {
 		this.listOfConstraints = listOfConstraints;
 		int half = optimalNumberOfModules/2;
-		this.minNumberOfModules = optimalNumberOfModules - half <= 1? 2 :optimalNumberOfModules-half;
-		this.maxNumberOfModules = optimalNumberOfModules + half;
+		this.minNumberOfModules = 1;
+		this.maxNumberOfModules = Integer.MAX_VALUE;
+//		this.minNumberOfModules = optimalNumberOfModules - half <= 1? 2 :optimalNumberOfModules-half;
+//		this.maxNumberOfModules = optimalNumberOfModules + half;
 	}	
 		
 	@Override

@@ -12,7 +12,8 @@ Bundle-ClassPath: lib/commons-csv-1.4.jar,
  lib/jenetics-7.2.0-sources.jar,
  lib/jenetics.ext-7.2.0.jar,
  lib/jenetics.ext-7.2.0-javadoc.jar,
- lib/jenetics.ext-7.2.0-sources.jar
+ lib/jenetics.ext-7.2.0-sources.jar,
+ lib/gson-2.8.0.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.module.eer.mm;bundle-version="0.1.0",
  org.eclipse.sirius.ui;bundle-version="6.3.0",
